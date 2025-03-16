@@ -1,5 +1,7 @@
 # Zsh-Config
 
+> View the rc-file [here](./.zshrc).
+
 ## Dependencies
 - zsh
 - zsh-autosuggestions
