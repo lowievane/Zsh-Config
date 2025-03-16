@@ -53,9 +53,7 @@ bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey "^[[3~" delete-char
 
 # Aliases
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
-alias v='vim'
+[ -f "$HOME/.config/aliasrc" ] && source "$HOME/.config/aliasrc"
 
 # Path
 export PATH="$HOME/.local/bin:$PATH"
